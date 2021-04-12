@@ -525,6 +525,7 @@ a.mbr-iconfont:hover {
 
 p.lead,
 .lead p {
+  margin-top: 2.3125rem;
   font-size: 1.07rem;
   font-weight: 300;
   margin-bottom: 2.3125rem; }
@@ -672,12 +673,15 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #232323; }
 
-h1, h2, h3, h4, h5, h6,
+
 .h1, .h2, .h3, .h4, .h5, .h6,
 .display-1, .display-2, .display-3, .display-4 {
   font-family: 'Montserrat', sans-serif;
   word-break: break-word;
   word-wrap: break-word; }
+  h1 b {
+    color: #000;
+  }
 
 input, textarea {
   font-family: "Raleway"; }
